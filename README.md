@@ -8,17 +8,18 @@
 ## Support Info
 
 ### Meta for scaling
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+```
 ### Include the below
-<!--
+```html
 <picture>
   <source srcset="img_small.jpg" media="(max-width: 600px)">
   <source srcset="img_medium.jpg" media="(max-width: 1500px)">
   <source srcset="img_large.jpg">
   <img src="img.jpg" alt="Image">
 </picture>
--->
+```
 ### Size reference
 /*code for mobile devices smaller than 600px*/
 body { background-color: blue; }
