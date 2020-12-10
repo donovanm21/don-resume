@@ -21,6 +21,7 @@
 </picture>
 ```
 ### Size reference
+```css
 /*code for mobile devices smaller than 600px*/
 body { background-color: blue; }
 
@@ -43,3 +44,4 @@ body { background-color: blue; }
 @media only screen and (min-width: 1200px) {
    body { background-color: orange; }
 }
+```
