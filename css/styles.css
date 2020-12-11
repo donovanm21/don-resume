@@ -25,6 +25,11 @@ body {
         height: 340px;
     }
 }
+.header {
+    border-radius: 0;
+    background-color: #292c33;
+    color: whitesmoke;
+}
 @media screen and (min-width: 0px) and (max-width: 768px) {
     .profile-img {
         display: none;
