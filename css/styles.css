@@ -5,24 +5,58 @@ body {
     font-family: sans-serif;
     color: #292c33;
 }
-.header {
-    background-image: url('../images/header_bg.jpeg');
-    background-repeat: no-repeat;
-    border-radius: 0;
-    background-color: #292c33;
-    color: whitesmoke;
-    height: 340px;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .header {
+        border-radius: 0;
+        background-color: #292c33;
+        color: whitesmoke;
+        height: 340px;
+    }
+ }
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+    .header {
+        background-image: url('../images/header_bg.jpeg');
+        background-repeat: no-repeat;
+        border-radius: 0;
+        background-color: #292c33;
+        color: whitesmoke;
+        height: 340px;
+    }
 }
-.picture-tag {
-    display: block;
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .profile-img {
+        display: none;
+    }
+    .quick-links {
+        display: none;
+    }
+    #skills {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #skills-section {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #education {
+        margin-bottom: 25px;
+    }
 }
-.profile-img {
-    width: 50%;
-    border-radius: 50%;
-    margin-bottom: 10%;
-    margin-left: 20px;
-    display: inline-block;
-    border: 2px solid #292c33;
+  
+@media screen and (min-width: 768px) and (max-width: 2024px) {
+    .picture-tag {
+        display: block;
+    }
+    .profile-img {
+        width: 175px;
+        border-radius: 50%;
+        margin-bottom: 10%;
+        margin-left: 20px;
+        display: inline-block;
+        border: 2px solid #292c33;
+    }
 }
 .list {
     list-style-type: none;
